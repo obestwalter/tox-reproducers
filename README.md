@@ -1,5 +1,7 @@
 # Requirements are always lumped together
 
+[![Build Status](https://travis-ci.org/obestwalter/tox-reproducers.svg?branch=master)](https://travis-ci.org/obestwalter/tox-reproducers)
+
 Splitting conflicting dependencies (e.g. same package with different version pinning) like suggested in http://stackoverflow.com/a/39890333/2626627 do not solve the problem as all listed dependencies get grouped into one `pip` invocation:
 
     /opt/pyenv/versions/all/bin/python /opt/pycharm-professional/helpers/pycharm/_jb_tox_runner.py
