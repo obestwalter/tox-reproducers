@@ -1,0 +1,18 @@
+usedevelop develop-inst-nodeps: /home/oliver/work/tox/tox-reproducers
+usedevelop installed: -e git+git@github.com:obestwalter/tox-reproducers.git@048f5f3e745214fdc1d49857ffec31ec20568156#egg=testpackage
+usedevelop runtests: PYTHONHASHSEED='2874166107'
+usedevelop runtests: commands[0] | pip freeze
+-e git+git@github.com:obestwalter/tox-reproducers.git@048f5f3e745214fdc1d49857ffec31ec20568156#egg=testpackage
+skip_install installed: 
+skip_install runtests: PYTHONHASHSEED='2874166107'
+skip_install runtests: commands[0] | pip freeze
+both develop-inst-nodeps: /home/oliver/work/tox/tox-reproducers
+both installed: -e git+git@github.com:obestwalter/tox-reproducers.git@048f5f3e745214fdc1d49857ffec31ec20568156#egg=testpackage
+both runtests: PYTHONHASHSEED='2874166107'
+both runtests: commands[0] | pip freeze
+-e git+git@github.com:obestwalter/tox-reproducers.git@048f5f3e745214fdc1d49857ffec31ec20568156#egg=testpackage
+___________________________________ summary ____________________________________
+  usedevelop: commands succeeded
+  skip_install: commands succeeded
+  both: commands succeeded
+  congratulations :)
